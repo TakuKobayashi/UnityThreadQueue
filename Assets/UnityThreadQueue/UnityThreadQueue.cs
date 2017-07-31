@@ -40,12 +40,11 @@ public class UnityThreadQueue : IDisposable{
 			if (actor != null){
 				try{
 					actor();
-				}catch (Exception e){
+				}catch (Exception exception){
 					lock (taskQueue) {
 						running = false;
 						taskQueue.Clear ();
 					}
-					throw;
 				}
 			}
 		}
