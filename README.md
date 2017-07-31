@@ -2,7 +2,7 @@
 It is Library that performs processing in the background in Unity.
 It is used the [Thread](https://en.wikipedia.org/wiki/Thread_(computing), "Thread") and [Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type) "Queue") system.
 
-# Install
+# Install
 Since unitypackage is in release tag, install it.
 https://github.com/TakuLibraries/UnityThreadQueue/releases
 
