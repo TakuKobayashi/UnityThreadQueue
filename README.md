@@ -44,5 +44,5 @@ private IEnumerator SyncCorutine(){
 
 # Others
 
-I wrote a more detailed article, However it is in Japanese.
+I wrote a more detailed article, However it is in Japanese.  
 http://qiita.com/taptappun/items/debb9d36099184a0b92e
