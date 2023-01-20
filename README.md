@@ -12,21 +12,21 @@ So for details, please look over there.
 
  * Basic usage
 
-```
+````csharp
 UnityThreadQueue.Instance.Enqueue (() => {
   //Please describe what you want to do asynchronously here
 });
-```
+````
 
 * the property that determines whether there is a process being executed asynchronously (Thread)
 
-```
+````csharp
 public bool UnityThreadQueue.Instance.ExistQueueEvent;
-```
+````
 
  * An example of combining the above two and synchronizing with the processing done in Thread
 
-```
+````csharp
 void Start(){
   UnityThreadQueue.Instance.Enqueue (() => {
     //Please describe what you want to do asynchronously here
@@ -40,7 +40,7 @@ private IEnumerator SyncCorutine(){
   }
   // Write the process you want to write after synchronizing
 }
-```
+````
 
 # Others
 
